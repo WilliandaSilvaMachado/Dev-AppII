@@ -1,0 +1,86 @@
+void main() {
+ 
+  var nome = "Willian";
+  String sobrenome = "da Silva Machado";
+  
+  String endereco = 'Rua Pesqueiro № 103';
+  int idade = 17;
+  
+  print("Nome: " + nome+ " " + sobrenome);
+  print("Endereço: $endereco");
+  print("Idade:  $idade");
+ }
+-----------------------------------------------------------------------
+void main() {
+ 
+  var nome_do_cinema = "Cinesystem";
+  var filme_escolhido = "Velozes e furiosos 9";
+  double valor_ingresso_por_pessoa = 24;
+  var quantidade_de_pessoas = "4";
+  double valor_multiplicado = 4;
+  var valor_total = (valor_ingresso_por_pessoa*valor_multiplicado);
+  var conto = "conto";
+  var pila = "pila";
+  
+ print(nome_do_cinema);
+ print("Filme escolhido: $filme_escolhido");
+ print("Valor por pessoa: $valor_ingresso_por_pessoa" + " " +  "pila");
+ print("Quantidade de pessoas: $quantidade_de_pessoas");
+ print("Valor total: $valor_total" + " " +  "conto");
+
+ }
+
+-----------------------------------------------------------------------
+void main() {
+  var area = "Área total do trapézio é:";
+  double base_maior = 30;
+  double base_menor = 10;
+  double altura = 70;
+  //cálculo das bases
+  double total_trapezio = base_maior + base_menor * altura / 2;
+
+  print(area + " " + "$total_trapezio");
+}
+
+-----------------------------------------------------------------------
+void main() {
+ 
+  var area = "Área total do quadrado é: ";
+  double base = 50;
+  double altura = 100;
+  
+  double area_quadrado = base*altura;
+  
+  print ("-   ▉   Quadrado   ▉   -");
+  print ("Base = " + "$base");
+  print ("Altura = " + "$altura");
+  print ("Calculo: Base x Altura");
+  print (area + "" + "$area_quadrado");
+ 
+ 
+ }
+--------------------------------------------------------------------
+
+void main() {
+  
+  List nomes = ["Willian", "Rita", "Vitória", "Jonatas", "Marcelo"];
+
+  print("Todos os nomes: " + "$nomes");
+  
+ if(nomes.contains(nomes)) {
+   print("É a mesma pessoa");
+ } else {
+    print("Estes nomes não conferem");
+ }
+
+  var outronome = "Willian";
+  
+  print("Nomes parecidos: " + "$outronome");
+
+ if(nomes.contains(outronome)) {
+   print("É a mesma pessoa?");
+ } else {
+    print("Os nomes não conferem");
+ }
+
+}
